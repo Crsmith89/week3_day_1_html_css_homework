@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif
+}
+  
+body > header {
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+  
+body > header > h1 {
+    padding: 20px;
+    color: white;
+}
+  
+body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    list-style: none;
+}
+  
+body > header > nav > ul > li > a {
+    padding-right: 16px;
+    color: white;
+
+  
+
